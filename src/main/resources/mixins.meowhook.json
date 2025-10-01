@@ -1,0 +1,30 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "package": "meow.miyarishu.meowhook.mixin.mixins",
+  "refmap": "mixins.meowhook.refmap.json",
+  "mixins": [
+    "MixinBlockLiquid",
+    "MixinEntityPlayer",
+    "MixinEntityPlayerSP",
+    "MixinEntityRenderer",
+    "MixinEntityLivingBase",
+    "MixinGuiNewChat",
+    "MixinFontRenderer",
+    "MixinGuiPlayerTabOverlay",
+    "MixinGuiScreen",
+    "MixinRenderPlayer",
+    "MixinItemRenderer",
+    "MixinRenderItem",
+    "MixinMinecraft",
+    "MixinNetworkManager",
+    "MixinPlayerControllerMP",
+    "MixinRenderEnderCrystal",
+    "MixinRenderLivingBase",
+    "MixinGuiBossOverlay",
+    "MixinWorld",
+    "accessors.IEntityLivingBase",
+    "accessors.IEntityPlayerSP",
+    "accessors.ICPacketPlayer"
+  ]
+}
